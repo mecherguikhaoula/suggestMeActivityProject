@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">amBored</string>
+    <string name="version_text">Version</string>
+    <string name="tell_me_text">Tell me what I can do</string>
+    <string name="search_activity_text">Search for an activity</string>
+    <string name="searched_activities_text">Searched activities</string>
+    <string name="search_me_for_activity_text">Suggest me an activity</string>
+    <string name="search_task_title_text">Search for a task</string>
+    <string name="delete_text">Delete</string>
+    <string name="confirm_delete_text">Do you want to delete the activities searched ?</string>
+    <string name="call_api_error_message">Error in generating a random activity ! Check your network !</string>
+    <string name="yes_text">Yes</string>
+    <string name="no_text">No</string>
+    <string name="ok_text">Ok</string>
+    <string name="no_activity_searched">No activity searched !</string>
+    <string name="activity_text"><em>Actitivy</em></string>
+    <string name="type_text"><annotation font="title_emphasis">Type</annotation></string>
+    <string name="participants_text">Participants</string>
+    <string name="price_text">Price</string>
+    <string name="link_text">Link</string>
+    <string name="key_text">Key</string>
+    <string name="accessibility_text">Accessibility</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="loading_data_text">Loading data … </string>
+    <string name="quit_app_text">Do you want to quit the application ?</string>
+    <string name="search_by_type_or_activity_text"> Search by type or activity :</string>
+    <string name="about_us_text">About us</string>
+    <string name="about_us_explanation_text">I\'am bored is an application which helps you and suggests you what you can do by providing the activity
+    and other informations related to it. In this application you can find all the activities suggested to you and you can delete them. </string>
+    <string name="use_application_text">You are bored ? Use our app</string>
+
+
+</resources>
