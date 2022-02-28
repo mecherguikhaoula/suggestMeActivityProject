@@ -36,10 +36,10 @@ class Utils {
                 validButton = alertDialog.getButton(AlertDialog.BUTTON_POSITIVE)
                 cancelButton = alertDialog.getButton(AlertDialog.BUTTON_NEGATIVE)
                 validButton.setOnClickListener {
-                    method()
                     alertDialog.dismiss()
-
+                    method()
                 }
+                
                 cancelButton.setOnClickListener {
                     alertDialog.dismiss()
                 }
