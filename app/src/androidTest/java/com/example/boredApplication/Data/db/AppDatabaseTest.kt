@@ -45,13 +45,11 @@ class AppDatabaseTest: TestCase() {
         val activityToAdd1 = ActivityEntity("Learn how to use an Arduino", "education", 13, 1.1, "https://en.wikipedia.org/wiki/Arduino", "8264223", 1.5)
         val activityToAdd2 = ActivityEntity("Learn how to use an Computer", "IT", 14, 1.2, "https://en.wikipedia.org/wiki/Arduino", "85", 1.5)
         val activityToAdd3 = ActivityEntity("Learn how to use an swim", "Natation", 15, 1.3, "https://en.wikipedia.org/wiki/Arduino", "1235", 1.5)
-
         val dataAdded = listOf(activityToAdd1, activityToAdd2, activityToAdd3)
 
         dao.insertActivity(activityToAdd1)
         dao.insertActivity(activityToAdd2)
         dao.insertActivity(activityToAdd3)
-
         val selectActivities = dao.getAll().getOrAwaitValue()
 
         assertThat(selectActivities).isEqualTo(dataAdded)
